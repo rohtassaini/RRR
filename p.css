@@ -1,0 +1,96 @@
+		body {
+            font-family: Arial, sans-serif;
+            background-color:#F29BB2 ;
+            margin: 0;
+            padding: 0;
+			background-image: url('p.webp') ;
+			background-position: center; 
+			background-repeat: no-repeat;
+			background-size:cover;
+			
+        }
+        header {
+            background-color: #BF1131;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .mydiv {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: lightblue;
+            
+            border-radius:40px;
+            max-width: 450px;
+			height: 250px;
+			text-align:center;
+			opacity:70%;
+			position: center;
+			margin-top:80px;
+			
+        }
+		
+		
+		
+        footer {
+            background-color: #BF1131;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		
+		
+		
+		
+		input [type="submit"] {
+			padding: 10px 20px; 
+			margin: 0 10px; 
+			font-size: 16px; 
+			cursor: pointer; 
+			border-radius: 80px;
+			border: none; 
+			width: 100px;
+		}
+		#yesbutton {
+			background: linear-gradient(to bottom right, green, red);
+			color:white;
+			border-radius: 20px;
+			padding: 10px 20px; 
+			margin: 0 10px; 
+			font-size: 16px; 
+			cursor: pointer; 
+			border: none; 
+			width: 100px;
+			
+		}
+		#nobutton {
+			background: linear-gradient(to bottom right, green, red);
+			color:white;
+			border-radius: 20px;
+			padding: 10px 20px; 
+			margin: 0 10px; 
+			font-size: 16px; 
+			cursor: pointer; 
+			border: none; 
+			width: 100px;
+		}
+		button:hover {
+            cursor: pointer;
+        }
+		a{
+			text-decoration:none;
+			
+			
+		}
+		
+		.large-emoji {
+			
+            font-size: 160px; /* Adjust the font size as desired */
+			color:lightblue;
+        }
+		
+		
+		

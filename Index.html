@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="Style.css" type="text/css">
+	<link rel="shortcut icon " href="log.webp" type="image/icon">
+    <title>My HTML Page</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+	
+	
+	
+	<section>
+	<form action="about.html" target="_blank">
+		<fieldset>
+		<Legend style="text-align:left;">Hi<br>Friends</legend>
+        <h2>First</h2>
+        <h3>Do you like it</h3>
+		
+		<a href="about.html" target="_blank"><button type="submit" id="yesButton">Yes</button></a>
+        <a href="about.html" target="_blank"><button type="submit" id="noButton">No</button></a>
+		</fieldset>
+		
+	</form>
+    </section>
+	
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+		
+		<div Style="font-family:cursive; text-align:right; margin:10px; margin-right:50px;  font-size:2rem;">Rohtas</div>
+		
+    </footer>
+	
+	
+	<script>
+        const yesButton = document.getElementById('yesButton');
+        const noButton = document.getElementById('noButton');
+        let isYesButtonVisible = true; // Variable to track the current state
+
+        // Function to swap the text and background color of the buttons
+        function swapButtons() {
+            const tempText = yesButton.textContent;
+            const tempBackground = yesButton.style.backgroundColor;
+            const tempColor = yesButton.style.color;
+
+            yesButton.textContent = noButton.textContent;
+            yesButton.style.backgroundColor = noButton.style.backgroundColor;
+            yesButton.style.color = noButton.style.color;
+
+            noButton.textContent = tempText;
+            noButton.style.backgroundColor = tempBackground;
+            noButton.style.color = tempColor;
+        }
+
+        // Add mouseover and mouseout event listeners to the no button to trigger the swap
+        noButton.addEventListener('mouseover', swapButtons);
+        noButton.addEventListener('mouseout', swapButtons);
+    </script>
+</body>
+</html>
